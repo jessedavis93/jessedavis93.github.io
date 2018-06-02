@@ -19,16 +19,16 @@ body {
 
 
 img {
-  width: 150px;
-  border-radius: 5px;
-  border: 5px solid black;
+  width: 200px;
+  border-radius: 50%;
+  margin: 20px;
+
 }
 
 h1 {
   font-size: 80px;
   padding: 25px;
   font-weight: 300;
-
 }
 
 a {
@@ -41,6 +41,15 @@ a {
 
 strong {
   font-weight: 700;
+}
+
+li {
+  display: inline-block;
+  padding: 20px;
+}
+
+ul {
+  margin: 0;
 }
 
 .intro {
@@ -95,3 +104,31 @@ strong {
   margin-left: 15px;
   margin-right: 15px;
 }
+
+.footer-info {
+  background: white;
+  box-shadow: 1px 1px 1px lightgrey;
+}
+
+.footer-header {
+  text-align: center;
+}
+
+.footer-body {
+  text-align: center;
+  padding: 20px;
+}
+
+.farewell {
+  text-align: center;
+  padding: 20px;
+}
+
+.footer-body h3 {
+  padding: 40px;
+}
+
+.footer-body h4 {
+  padding: 40px;
+}
+
