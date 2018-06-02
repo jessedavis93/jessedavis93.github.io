@@ -26,7 +26,7 @@ img {
 
 h1 {
   font-size: 80px;
-  padding: 15px;
+  padding: 25px;
   font-weight: 300;
 
 }
@@ -40,16 +40,35 @@ a {
     }
 
 
+
+
 .intro {
   display: flex;
   justify-content: center;
   background: white;
   box-shadow: 1px 1px 1px lightgrey;
+  margin-bottom: 20px;
 }
 
     .intro-body, .intro-footer {
       text-align: center;
     }
+
+.high-school {
+  background: white;
+  box-shadow: 1px 1px 1px lightgrey;
+}
+
+    .high-school--header {
+      text-align: center;
+      padding: 40px;
+    }
+
+    .high-school--header h2 {
+      font-size: 36px;
+    }
+
+
 
 .fab {
   font-size: 50px;
