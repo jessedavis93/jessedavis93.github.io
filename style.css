@@ -132,3 +132,19 @@ ul {
   padding: 40px;
 }
 
+.music-skills {
+  border-right: 1px solid rgba(150,141,143,0.7);
+}
+
+.dev-skills {
+  border-left: 1px solid rgba(150,141,143,0.7);
+}
+
+#music-list {
+  margin-bottom: 40px;
+}
+
+.space-maker {
+  width: 100%;
+  padding: 50px;
+}
